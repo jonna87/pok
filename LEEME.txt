@@ -1,0 +1,11 @@
+MAQUINADOS SERMIM - Inventario Móvil Fase 1
+
+Funciones:
+- Captura offline de materia prima, herramental, consumibles y gases.
+- Alta nueva o actualización de artículo existente por ID/QR.
+- Escaneo QR cuando Android System WebView soporta BarcodeDetector; si no, ID manual.
+- Las capturas quedan guardadas localmente en el teléfono.
+- Exporta SERMIM_INVENTARIO_MOVIL_YYYY-MM-DD.json.
+- El archivo está diseñado para importarse en Control de Almacén V29+.
+
+Este repositorio compila app-debug.apk con GitHub Actions.
